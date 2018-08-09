@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	magin:0px;
+	padding:0px;
+}
+*{
+	margin:0px;
+	}
+#all{
+	width:600px;
+	height:500px;
+	margin:5% auto;
+	
+}
+#all #f1 {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(../images/loginback.gif);
+}
+#all #f1 #f11 {
+	width: 500px;
+	height: 100px;
+	background-image: url(../images/logintop.jpg);	
+}
+#all #f1 #f12 {
+	width: 500px;
+	height: 300px;
+}
+#all #f1 #f12 #f121 {
+	margin:0 auto;
+	margin-top:10%;
+	height:24px;
+	width:380px;
+}
+#all #ch {
+	font-size: 24px;
+	color: #FC3;
+	font-weight: bold;
+}
+
+
+#f12 input {
+	height: 24px;
+	width: 150px;
+}
+#all #f1 #f12 #f121 form {
+	height:24px;
+	width:150px;
+}
+#all #f1 #f12  a {
+	color: #FF3;
+	text-decoration: none;	
+}
+#all #f1 #f12 #f122 {
+	margin:0 auto;
+	margin-top:4%;
+	height:24px;
+	width:380px;
+}
+.ai{
+	position:relative;
+	margin-left:3%;
+}
+
+#all #f1 #f12 #f123 {
+	margin: 0 auto;
+	margin-top: 6%;
+	height: 24px;
+	width: 380px;
+	
+}
+#all #f1 #f12 #f123 input {
+	color: #FF3;
+	margin-left:30px;
+}
+#f124 {
+	margin:0 auto;
+	margin-top:4%;
+	height:24px;
+	width:380px;
+	position:relative;
+	margin-top:10%;
+}
+#f124 input{
+	border: 1px solid #999999;
+	width: 60px;
+	height: 24px;
+	color:#000;
+	font-weight:bold;
+	margin-left:50px;
+}
+.new{
+	position:relative;
+	margin-left:15%;
+}
+
+#start{
+		width:1500px;
+		height:600px;
+		background-image: url(../images/start.jpg);
+			
+		}
+#st{
+	width:100px;
+	height:40px;
+	position:absolute;
+	margin-left:55%;
+	margin-top:15%;
+}
+#st a{
+	text-decoration:none;
+	color:red;
+	font-size:24px;
+	
+}

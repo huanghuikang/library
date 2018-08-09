@@ -1,0 +1,53 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	}
+*{
+	margin:0px;
+	}
+#all {
+	height: 600px;
+	width: 600px;
+	margin:5% auto;
+	background-image:url(../images/re1.jpg);
+}
+#all #t1 {
+	height:100px;
+	width:400px;
+	margin:0 auto;
+	background-image:url(../images/retop.jpg);
+}
+#all #t2 {
+	height:10px;
+	width:400px;
+	margin:0 auto;
+	background-color:#ECD6FC
+}
+td #textfield {
+	height: 25px;
+	width: 200px;
+}
+#all #t3 {
+	height:440px;
+	width:400px;
+	margin:0 auto;
+}
+#t31 {
+	
+	height:20px;
+	width:400px;
+	margin:0 auto;
+}
+#t32 {
+	
+	height:40px;
+	width:400px;
+	margin:0 auto;
+}
+#t32 input {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 60px;
+	font-weight: bold;
+}

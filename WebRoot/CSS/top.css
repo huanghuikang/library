@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+}
+* {
+	margin:0px;
+}
+#t1 {
+	margin:0 auto;
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/top.jpg);
+	background-repeat:no-repeat;
+	
+}
+#t2{
+	margin:0 auto;
+	width:100%;
+	height:10px;
+	background-image:url(../images/top1.jpg);
+}
+#t1 a{
+	float: left;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+	margin-right: 15px;
+}
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerServlet</servlet-name>
+    <servlet-class>com.servlet.ManagerServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.servlet.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderServlet</servlet-name>
+    <servlet-class>com.servlet.ReaderServlet</servlet-class>
+  </servlet>
+ 
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListBookServlet</servlet-name>
+    <servlet-class>com.servlet.bookservlet.ListBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <servlet-class>com.servlet.bookservlet.QueryBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <servlet-class>com.servlet.bookservlet.BookDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBookServlet</servlet-name>
+    <servlet-class>com.servlet.bookservlet.UpdateBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderDelServlet</servlet-name>
+    <servlet-class>com.servlet.reader.ReaderDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderListServlet</servlet-name>
+    <servlet-class>com.servlet.reader.ReaderListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderQueryServlet</servlet-name>
+    <servlet-class>com.servlet.reader.ReaderQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderUpdateServlet</servlet-name>
+    <servlet-class>com.servlet.reader.ReaderUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkServlet</servlet-name>
+    <servlet-class>com.servlet.WorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListWorkServlet</servlet-name>
+    <servlet-class>com.servlet.work.ListWorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWorkServlet</servlet-name>
+    <servlet-class>com.servlet.work.DeleteWorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>com.servlet.CheckCodeServlet</servlet-class>
+  </servlet>
+
+
+
+
+ 
+  <servlet-mapping>
+    <servlet-name>ManagerServlet</servlet-name>
+    <url-pattern>/manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderServlet</servlet-name>
+    <url-pattern>/reader</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ListBookServlet</servlet-name>
+    <url-pattern>/ListBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <url-pattern>/QueryBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <url-pattern>/BookDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBookServlet</servlet-name>
+    <url-pattern>/UpdateBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderDelServlet</servlet-name>
+    <url-pattern>/ReaderDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderListServlet</servlet-name>
+    <url-pattern>/ReaderListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderQueryServlet</servlet-name>
+    <url-pattern>/ReaderQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderUpdateServlet</servlet-name>
+    <url-pattern>/ReaderUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkServlet</servlet-name>
+    <url-pattern>/work</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListWorkServlet</servlet-name>
+    <url-pattern>/ListWorkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWorkServlet</servlet-name>
+    <url-pattern>/DeleteWorkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <!-- <welcome-file>login.jsp</welcome-file> -->
+    <welcome-file>start.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

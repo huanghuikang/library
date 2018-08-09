@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	padding:0px;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+table{
+	margin:0 auto;
+	/* position:relative;
+	margin-top:60%; */
+}
+a{
+	text-decoration:none;
+}
+/*@param book */
+#all{
+	width:100%;
+	height:400px;
+	background-image:url(../images/booklist.jpg);
+	
+}
+/* #all table{
+	margin:0 auto;
+} */
+#all .form {
+	margin:0 auto;
+}
+/*@param bookadd */
+#bookadd{
+	width:100%;
+	height:400px;
+	background-image:url(../images/bookadd.jpg);
+}
+/*@param bookupdate */
+#bookupdate{
+	width:100%;
+	height:400px;
+	background-image:url(../images/bookupdate.jpg);
+}
+/* #bookupdate table{
+	margin:0 auto;
+} */
+/*@param readerlist */
+#reader {
+	width:100%;
+	height:400px;
+	background-image:url(../images/readerlist.jpg);
+}
+/* #reader table{
+	margin:0 auto;
+} */
+/*@param readeradd */
+#readeradd{
+	width:100%;
+	height:400px;
+	background-image:url(../images/readeradd.jpg);
+}
+/*@param readerupdate */
+#readerupdate{
+	width:100%;
+	height:400px;
+	background-image:url(../images/readerupdate.jpg);
+}
+/* #readerupdate table{
+	margin:0 auto;
+} */
+#readerupdate .reader1{
+	position:relative;
+	margin-left:40%;
+}
+/*@param manager */
+#manager{
+	width:100%;
+	height:400px;
+	background-image:url(../images/managerlist.jpg);
+}
+
+/*@param work */
+#work{
+	width:100%;
+	height:400px;
+	background-image:url(../images/back.jpg);
+}
+/*@param workadd */
+#workadd{
+	width:100%;
+	height:400px;
+	background-image:url(../images/borrow.jpg);
+}
+#workadd #null {
+	width:100%;
+	height:10%;
+}
+#workadd #button{
+	position:relative;
+	margin-left:30%
+}
+#workadd #button input{
+	position:relative;
+	margin-left:5%
+}
+/*@param aboutproject */
+#hao{
+	position:absolute;
+	width:100%;
+	height:400px;
+	background-image:url(../images/thanks.jpg);
+}
+#hao #ab{
+	
+	position:relative;
+	margin-left:10%;
+	margin-top:2%;
+}

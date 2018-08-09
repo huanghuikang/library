@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+*{
+	margin:0px;
+	podding:0px;
+}
+#dayjob{
+	height: 400px;
+	width: 100%;
+	background-image: url(../images/twoall.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+#job1{
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	text-decoration: none;
+	position:relative;
+	top:8%;
+	left:55%;
+}
+#job2{
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:8%;
+	left:55%;
+}
+a{
+	
+	text-decoration: none;
+}
+a:hover {
+	font-size: larger;
+	color:#0FF;
+	text-decoration:underline;	
+}
+
+#informsafe {
+	height:400px;
+	width:100%;
+	background-image:url(../images/twoall.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+#informsafe #insafe2 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:20%;
+	left:55%;
+}
+#informsafe #insafe1 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:20%;
+	left:55%;
+	background-color:#F0F;
+}
+#informsafe #insafe3 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:20%;
+	left:55%;
+}
+#informsafe #insafe4 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:20%;
+	left:55%;
+	background-color:#0F0;
+}
+#selectinform {
+	height:400px;
+	width:100%;
+	background-image:url(../images/twoall.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+#selectinform #selection1 {
+		height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:44%;
+	left:55%;
+
+}
+#selectinform #selection2 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:44%;
+	left:55%;
+
+}
+#pjsafe {
+	height:400px;
+	width:100%;
+	background-image:url(../images/twoall.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+
+}
+#pjsafe #pjsafe1 {
+	height: 25px;
+	width: 200px;
+	background-color:#FF0;
+	position:relative;
+	top:64%;
+	left:55%;
+}
+#pjsafe2 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:64%;
+	left:55%;
+}
+#pjsafe3 {
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	font-weight: bolder;
+	position:relative;
+	top:64%;
+	left:55%;
+
+
